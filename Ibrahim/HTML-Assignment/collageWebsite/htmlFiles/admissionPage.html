@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a{
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        a:hover {
+            color: #007bff;
+            font-size: 14px;
+            transform: scale();
+            transition: 0.4s;
+        }
+        form {
+            width: 50%;
+            margin: 0 auto;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        input[type="text"], input[type="email"], select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Admission</h1>
+    <nav>
+        <a href="homePage.html">Home</a>
+        <a href="academicsPage.html">Academics</a>
+        <a href="admissionPage.html">Admission</a>
+        <a href="galleryPage.html">Gallery</a>
+        <a href="aboutPage.html">About</a>
+    </nav>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="english">English</option>
+            <option value="sociology">Sociology</option>
+            <option value="computer_science">Computer Science</option>
+            <option value="mathematics">Mathematics</option>
+            <option value="accounting">Accounting</option>
+            <option value="economics">Economics</option>
+            <option value="psychology">Psychology</option>
+            <option value="trading">Trading</option>
+            <option value="physics">Physics</option>
+            <option value="marketing">Marketing</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
