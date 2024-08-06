@@ -1,0 +1,24 @@
+
+        body {
+            background-color: #e66868;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #03376e;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: rgb(0, 23, 156);
+        }
